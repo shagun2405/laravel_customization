@@ -1,0 +1,34 @@
+{
+    "name": "bagisto/galaxy-theme",
+    "description": "Galaxy Theme for Bagisto.",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "shagunvaish-webkul",
+            "email": "shagun.vaish667@webkul.in"
+        },
+        {
+            "name": "Jitendra Singh",
+            "email": "jitendra@webkul.in"
+        }
+    ],
+
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Webkul\\Galaxy\\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\Galaxy\\Providers\\GalaxyServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+
+    "minimum-stability": "dev"
+}
